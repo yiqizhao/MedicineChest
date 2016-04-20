@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.zyq.medicinechest.other_view.TitleBar
+        android:id="@+id/titlebar_fragment_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/mDividingLine"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/username_fragment_login"
+        style="@style/mEditText_logister"
+        android:drawableLeft="@mipmap/ic_identity_grey"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/ic_identity_grey"
+        android:hint="用户名"
+        android:inputType="none" />
+
+    <View style="@style/mDividingLine" />
+
+    <EditText
+        android:id="@+id/password_fragment_login"
+        style="@style/mEditText_logister"
+        android:drawableLeft="@mipmap/ic_password_grey"
+        android:drawablePadding="10dp"
+        android:drawableStart="@mipmap/ic_password_grey"
+        android:hint="密码"
+        android:maxLength="12"
+        android:inputType="textPassword" />
+
+    <View style="@style/mDividingLine" />
+
+    <Button
+        android:id="@+id/btn_fragment_login"
+        style="@style/mButton_logister"
+        android:layout_marginTop="30dp"
+        android:text="登录" />
+
+    <TextView
+        android:id="@+id/tv_find_pass_fragment_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="忘记密码？"
+        android:textColor="#666"
+        android:textSize="16sp" />
+
+</LinearLayout>

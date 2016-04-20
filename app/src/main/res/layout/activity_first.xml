@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="400dp"
+        android:src="@mipmap/ic_medicinechest"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="智能药箱"
+        android:textColor="@color/toolbar_backgroundcolor_blue"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关爱您和家人的健康"
+        android:textColor="@color/toolbar_backgroundcolor_blue"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

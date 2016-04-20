@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+    <Button
+        android:id="@+id/drawer_bn_user"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:background="@color/color_alpha_0"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <com.zyq.medicinechest.other_view.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="25dp"
+            android:src="@mipmap/default_avatar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="3dp"
+            android:text="用户名"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="22sp" />
+
+    </LinearLayout>
+</FrameLayout>
